@@ -1,0 +1,2 @@
+sphinx-theme-pd==0.8.3
+recommonmark==0.7.1
