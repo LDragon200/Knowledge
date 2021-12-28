@@ -26,6 +26,7 @@ git 使用前必须配置::
 管理远程仓库:
 
 1. 生成rsa
+
 ::
 
     ssh-keygen -t rsa
@@ -37,8 +38,8 @@ git 使用前必须配置::
 4. 管理远程仓库
 ::
 
-    git remote add origin https://github.com/LDragon200/Knowledge.git
-    git push -u origin main
+    git remote add docs https://github.com/LDragon200/Knowledge.git
+    git push -u docs main
 
 
 

@@ -16,6 +16,8 @@ Sphinx 是一种文档工具，它可以令人轻松的撰写出清晰且优美�
 
 Sphinx 使用 reStructuredText 作为标记语言, 可以享有 Docutils 为reStructuredText提供的分析，转换等多种工具.
 
+sphinx 教程可参展：https://www.sphinx.org.cn/
+
 Sphinx 安装
 ++++++++++++++++
 Sphinx为Python语言的一个第三方库。所以我们首先要确认好电脑配置好了python环境。然后然后使用pip安装是Sphinx::
@@ -51,3 +53,26 @@ Sphinx 创建项目
     生成PDF文档时，需要计算机上有 LaTeX to PDF 的环境。
 
 文档写好后，可以通过托管在 github 上，最后发布到 read the docs。
+
+本地预览
+++++++++++++++++
+
+使用 `sphinx-autobuild` 插件 需要使用 `pip` 命令进行安装。
+
+主题设置
+++++++++++++++++
+
+自带的主题可用在以下网站上找到 https://sphinx-themes.org/ 
+
+::
+
+    $ pip install sphinx-press-theme
+
+然后在 `Conf.py` 添加主题：
+
+::
+
+    html_theme = 'press'
+
+当然，你也可以自己写一个主题，参照: https://www.sphinx.org.cn/theming.html
+

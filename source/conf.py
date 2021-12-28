@@ -54,7 +54,7 @@ exclude_patterns = []
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = 'alabaster'
+html_theme = 'press'
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
@@ -84,23 +84,3 @@ latex_elements = {
 #    u'\\unexpanded{中文作者}', 'manual'),
 # ]
 # latex_engine = 'xelatex'
-# latex_elements = {
-#     # The paper size ('letterpaper' or 'a4paper').
-#     #
-#     # 'papersize': 'letterpaper',
-
-#     # The font size ('10pt', '11pt' or '12pt').
-#     #
-#     # 'pointsize': '10pt',
-
-#     'fncychap' : '',
-
-#     # Additional stuff for the LaTeX preamble.
-#     #
-#     'preamble': r'''\usepackage{ctex}
-#     ''',
-
-#     # Latex figure (float) alignment
-#     #
-#     # 'figure_align': 'htbp',
-# }
