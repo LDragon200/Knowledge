@@ -12,4 +12,5 @@
     :caption: 编程语言:
 
     python/index
+    js/index
 

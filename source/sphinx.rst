@@ -76,3 +76,4 @@ Sphinx 创建项目
 
 当然，你也可以自己写一个主题，参照: https://www.sphinx.org.cn/theming.html
 
+如果在 Read the Docs 上托管是构建出错，可以查看报错，检查 conf.py 文件，使用 Python 第三方包以后需要在根目录下新建 requirements.txt 写入第三方包。
