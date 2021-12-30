@@ -63,5 +63,7 @@ git 基本概念
 
 git 命令操作图解
     可以参考这一篇文章：https://www.cnblogs.com/cb0327/p/5066685.html
+    
+    .. image:: /images/workflow.png
 
 
