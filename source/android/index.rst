@@ -1,8 +1,9 @@
-python
+安卓
 ================
 
 .. toctree::
     :maxdepth: 1
     :caption: 目录：
 
-    gui/index
+    termux
+    aidlux
