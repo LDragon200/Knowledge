@@ -1,9 +1,12 @@
-python
+python 基础
 ================
 
 .. toctree::
     :maxdepth: 1
     :caption: 目录：
 
-    base/index
-    gui/index
+    version
+    modules
+    venv
+    function
+    oop
