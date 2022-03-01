@@ -7,3 +7,4 @@ python
 
     base/index
     gui/index
+    python threading
